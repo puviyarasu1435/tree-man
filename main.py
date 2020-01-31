@@ -70,7 +70,7 @@ while running:
                 print("Coming soon")
             elif version[0] < x < (version[0]+version[2]) and version[1] < y < (version[1]+version[3]):
                 
-                 webbrowser.open("https://github.com/puviyarasu1435/tree-man");
+                 webbrowser.open("https://github.com/puviyarasu1435/tree-man/tree/df5d071248439cfeaabdfb3b9708df087ea3cadc");
           
         showMain()
         x,y = pygame.mouse.get_pos() 
