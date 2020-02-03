@@ -16,7 +16,7 @@ help = (200, 290, 115, 40)
 story= (184, 360, 115, 40)
 version=(500,560, 115, 40)
 
-large = pygame.font.Font("ITCBLKAD.TTF", 80)
+large = pygame.font.Font("ALGER.TTF", 80)
 medium = pygame.font.Font("ITCBLKAD.TTF", 40)
 small = pygame.font.Font("ITCBLKAD.TTF", 35)
 Vsmall = pygame.font.Font("ITCBLKAD.TTF", 30)
@@ -38,9 +38,8 @@ STORY_H = medium.render("STORY", True, (200,200,200))
     
 def showMain():
     WHITE = (255,255,255)
-
     win.blit(BACKGROUND, (0, 0))
-    win.blit(HEADING,(15,20))
+    win.blit(HEADING,(80,20))
    
     
    
